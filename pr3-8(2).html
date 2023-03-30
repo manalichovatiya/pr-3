@@ -1,0 +1,16 @@
+<script>
+    function swapp(a,b){
+    
+    document.write("The value of a before swapping: " + a + "</br>");
+    document.write("The value of b before swapping: " + b + "</br>");
+    var c;
+    c = a;
+    a = b;
+    b = c;
+    document.write("The value of a after swapping: " + a + "</br>");
+    document.write("The value of b after swapping: " + b + "");
+    }
+    var a = parseInt(prompt('Enter the first variable: '));
+    var b = parseInt(prompt('Enter the second variable: '));
+    swapp(a,b);
+</script>
